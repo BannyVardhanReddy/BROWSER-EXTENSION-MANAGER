@@ -139,9 +139,10 @@ mode.addEventListener("click",()=>{
   document.body.classList.toggle("dark");
   const mode_img = document.getElementById("mode-img");
   if(document.body.classList.contains("dark")){
-    mode_img.src = "./assets/images/icon-sun.svg";
+    mode_img.src = "./images/icon-sun.svg";
   }else{
-    mode_img.src = "./assets/images/icon-moon.svg";
+    mode_img.src = "./images/icon-moon.svg";
   }
 });
+
 
