@@ -3,7 +3,7 @@ let extensions = [];
 let currentFilter = "all";
 
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("./data.json")
+  fetch("data.json")
     .then((response) => {
       if (!response.ok) {
         console.log("Error loading JSON");
@@ -144,3 +144,4 @@ mode.addEventListener("click",()=>{
     mode_img.src = "./assets/images/icon-moon.svg";
   }
 });
+
