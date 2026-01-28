@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class = "section">
+    <div class="head_container">
+      <img src="./assets/images/logo.svg" alt="" class="logo">
+      <button class="toggle mode" id = "mode">
+        <img src="./assets/images/icon-moon.svg" alt="" id = "mode-img">
+      </button>
+    </div>
+  </header>
+  <main class = "section">
+    <div class="head_title">
+      <h1>Extensions List</h1>
+      <div class="filters">
+        <button class = "filter all act">All</button>
+        <button class="filter actived">Active</button>
+        <button class = "filter inactive">Inactive</button>
+      </div>
+    </div>
+    <div id = "extension" class="extensions"></div>
+    <script src="/index.js"></script>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Ajjugunti Banny Vardhan Reddy</a>.
+  </div>
+</body>
+
+</html>
